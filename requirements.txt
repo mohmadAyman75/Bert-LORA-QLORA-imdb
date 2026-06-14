@@ -1,0 +1,16 @@
+torch
+transformers
+datasets
+evaluate
+scikit-learn
+peft
+accelerate
+bitsandbytes
+pandas
+numpy
+matplotlib
+seaborn
+tqdm
+pyarrow
+fsspec
+huggingface-hub

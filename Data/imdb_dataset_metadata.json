@@ -1,0 +1,81 @@
+{
+  "title": "IMDb Datasets",
+  "description": "Comprehensive IMDb datasets including title, name, ratings, and crew information",
+  "date_created": "2026-06-12",
+  "datasets": {
+    "name.basics.tsv.gz": {
+      "total_records": 1000000,
+      "columns": [
+        "nconst",
+        "primaryName",
+        "birthYear",
+        "deathYear",
+        "primaryProfession",
+        "knownForTitles"
+      ]
+    },
+    "title.akas.tsv.gz": {
+      "total_records": 1000000,
+      "columns": [
+        "titleId",
+        "ordering",
+        "title",
+        "region",
+        "language",
+        "types",
+        "attributes",
+        "isOriginalTitle"
+      ]
+    },
+    "title.basics.tsv.gz": {
+      "total_records": 1000000,
+      "columns": [
+        "tconst",
+        "titleType",
+        "primaryTitle",
+        "originalTitle",
+        "isAdult",
+        "startYear",
+        "endYear",
+        "runtimeMinutes",
+        "genres"
+      ]
+    },
+    "title.crew.tsv.gz": {
+      "total_records": 1000000,
+      "columns": [
+        "tconst",
+        "directors",
+        "writers"
+      ]
+    },
+    "title.episode.tsv.gz": {
+      "total_records": 1000000,
+      "columns": [
+        "tconst",
+        "parentTconst",
+        "seasonNumber",
+        "episodeNumber"
+      ]
+    },
+    "title.principals.tsv.gz": {
+      "total_records": 1000000,
+      "columns": [
+        "tconst",
+        "ordering",
+        "nconst",
+        "category",
+        "job",
+        "characters"
+      ]
+    },
+    "title.ratings.tsv.gz": {
+      "total_records": 1000000,
+      "columns": [
+        "tconst",
+        "averageRating",
+        "numVotes"
+      ]
+    }
+  }
+}

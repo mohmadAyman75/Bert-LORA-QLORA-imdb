@@ -1,0 +1,15 @@
+.venv/
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+Data/processed/*.parquet
+Data/processed/*.json
+!Data/processed/.gitkeep
+
+Output/figures/*.png
+Output/metrics/*.json
+Output/metrics/*.txt
+Output/results/*.csv
+Output/model_weights/**
+!Output/model_weights/.gitkeep
